@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+    <h1>Habib Girls School Addmition Form</h1>
+    <form>
+        <fieldset>
+            <legend>Introduction</legend>
+            <p>
+        Name <input type="text" placeholder="Enter your name">
+    </p>
+    <p>
+        Father Name <input type="text" placeholder="Enter your  Father name">
+    </p>
+    <p>
+        Age <input type="number" placeholder="Write your age">
+    </p>
+    <p>
+        Date of Birth(DOB) <input type="date">
+    </p>
+    <p>
+        Place of birth <input type="text" placeholder="Where did you born?">
+    </p>
+    <p>
+        Country <input type="text" placeholder="Your country">
+    </p>
+    <p>
+        City <input type="text" placeholder="Your city">
+    </p>
+    <p>
+        State/Province <select name="State/Province" id="S/P">
+            <option value="Sindh">Sindh</option>
+            <option value="Balochistan">Balochistan</option>
+            <option value="Punjab">Punjab</option>
+            <option value="Khebar Pkhtoon Khawa">Khebar Pkhtoon Khawa</option>
+            <option value="Gilgit Baltistan">Gilgit Baltistan</option>
+            <option value="Kashmir">Kashmir</option>
+        </select>
+    </p>
+    <p>
+        Address <textarea name="Address" id="A" cols="25" rows="4" placeholder="Where is your house"></textarea>
+    </p>
+    <p>
+        Phone <select name="Phone" id="P">
+            <option value="+92">+92</option>
+            <option value="+91">+91</option>
+            <option value="+1">+1</option>
+            <option value="+63">+63</option>
+            <option value="+44">+44</option>
+        </select>
+        <input type="number">
+    </p>
+    <p>
+        Gender <input type="radio" name="gender" id="m">
+        Male
+        <input type="radio" name="gender" id="f">
+        Female
+    </p>
+    </fieldset>
+        <fieldset>
+            <legend>Previous School</legend>
+            <p>
+            Previous Class <input type="number" placeholder="Your previous school class">
+        </p>
+        <p>
+            Previous Class Percentsge <input type="number" placeholder="Your previous school class percentage">
+        </p>
+        <p>
+            Previous School Name <input type="text" placeholder="Your previous school name">
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend>This School(Habib Girls)</legend>
+            <p>
+                Class Suggest <input type="number" placeholder="In which class your want to study">
+            </p>
+            <p>
+                Section <select name="Section" id="S">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+                <option value="D">D</option>
+                <option value="E">E</option>
+                <option value="F">F</option>
+            </select>
+            </p>
+            Roll No. <input type="number" placeholder="Your Roll no">(max 1-40)
+        </fieldset>
+        
+    </form>
+    <button type="button"onclick="alert('your information has been submit')"> Submit</button>
+</body>
+</html>
